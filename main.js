@@ -2,7 +2,7 @@
 import { getWeather } from './weather.js'
 // import 'animate.css';
 
-navigator.geolocation.getCurrentPosition(positionSuccess, positionError,{timeout:10000})
+navigator.geolocation.getCurrentPosition(positionSuccess, positionError,{timeout:3000})
 
 function positionSuccess({ coords }) {
     getWeather(
