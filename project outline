@@ -1,0 +1,17 @@
+Things to get
+1. Clients current location data
+2. current weather data from a weather api
+
+things to display
+1. If a jumper is currently needed
+2. Will a jumper be needed in the future
+
+code logic
+1. If the real feel temperature is below a "certain point" then a jumper is required else its not
+2. point 1 to be made for the current temperature and a list of future temperatures
+3. considering adding wind vaules as a jumper may be needed for the current temperature with wind effecting.. but not sure if real feel factorsd that?
+
+
+page style
+1. very basic with maybe little graphics?
+2. 1 page probably not even need to scroll or content overflowing
