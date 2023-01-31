@@ -71,7 +71,7 @@ header {
 
 #plusHours {
   margin-left: 4vw;
-  margin-right: 3vw;
+  margin-right: 3rem;
   display: flex;
   justify-content: left;
   align-items: center;
