@@ -10,31 +10,31 @@ export function getWeather(lat, long, timezone) {
     } 
  ).then(({ data }) => {
     let weather
-    if (data.hourly.apparent_temperature[0] < 20) {
+    if (data.hourly.apparent_temperature[0] < 18) {
         weather = "Currently: You need to wear a jumper!"
     } else {
         weather = "Currently: You don't need to wear a jumper!"
     }
     document.getElementById("app").innerHTML = weather;
-    if (data.hourly.apparent_temperature[1] < 20) {
+    if (data.hourly.apparent_temperature[1] < 18) {
         weather = "You need to wear a jumper!"
     } else {
         weather = "You don't need to wear a jumper!"
     }
     document.getElementById("onehr").innerHTML = weather;
-    if (data.hourly.apparent_temperature[2] < 20) {
+    if (data.hourly.apparent_temperature[2] < 18) {
         weather = "You need to wear a jumper!"
     } else {
         weather = "You don't need to wear a jumper!"
     }
     document.getElementById("twohr").innerHTML = weather;
-    if (data.hourly.apparent_temperature[3] < 20) {
+    if (data.hourly.apparent_temperature[3] < 18) {
         weather = "You need to wear a jumper!"
     } else {
         weather = "You don't need to wear a jumper!"
     }
     document.getElementById("threehr").innerHTML = weather;
-    if (data.hourly.apparent_temperature[4] < 20) {
+    if (data.hourly.apparent_temperature[4] < 18) {
         weather = "You need to wear a jumper!"
     } else {
         weather = "You don't need to wear a jumper!"
