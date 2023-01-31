@@ -1,6 +1,6 @@
-import './style.css'
-import { getWeather } from './weather'
-import 'animate.css';
+
+import { getWeather } from './weather.js'
+// import 'animate.css';
 
 navigator.geolocation.getCurrentPosition(positionSuccess, positionError)
 
