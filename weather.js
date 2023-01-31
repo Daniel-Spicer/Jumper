@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export function getWeather(lat, long, timezone) {
-    return axios.get("https://api.open-meteo.com/v1/forecast?&hourly=apparent_temperature&timeformat=unixtime", {
+    return axios.get("https://api.open-meteo.com/v1/forecast?&hourly=apparent_temperature", {
         params: { 
             latitude: lat, 
             longitude: long, 
